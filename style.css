@@ -6,6 +6,7 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -15,7 +16,7 @@ nav {
 .nav-header {
     color: #181818;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: 800px;
 }
 
 nav>ul {
@@ -42,4 +43,19 @@ nav li a {
     border-color: none;
     font-size: 20px;
     font-weight: 700;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    max-width: 500px;
+}
+
+.banner .profile-pic {
+    width: 500px;
 }
