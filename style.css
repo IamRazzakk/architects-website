@@ -257,3 +257,30 @@ textarea {
     background: #FFF;
     border: 1px solid gray;
 }
+
+.resume-section {
+    display: block;
+}
+
+/* for mobile device */
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer {
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+    }
+
+    #what-i-do-des {
+        padding: 20px;
+    }
+    body{
+        width: 80%;
+    }
+
+}
+@media screen and (min-width: 576) and (max-width: 992px) {
+    .skills-container, .resume-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+}
